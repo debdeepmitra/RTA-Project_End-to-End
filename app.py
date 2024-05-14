@@ -5,7 +5,7 @@ import joblib
 from prediction import ordinal_encoder, get_prediction
 import shap
 
-model = joblib.load(r'C:\Users\Debdeep\Desktop\TMLC\Project-1\xgb.joblib')
+model = joblib.load('xgb.joblib')
 
 st.set_page_config(page_title ='Accident severity prediction', page_icon = '🚨', layout ='wide')
 
